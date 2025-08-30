@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    float percentage;
+    printf("enter the percentage");
+    scanf("%f", &percentage);
+    if(percentage>=90.0 && percentage<=100)
+    {
+        printf("the grade obtained is:A");
+    }
+    else if(percentage>=60.0 && percentage<=89.9)
+    {
+        printf("the grade obtained is:B");
+    }
+    else if(percentage>=30.0 && percentage<=59.9)
+    {
+        printf("the grade obtained is:C");
+    }
+    else{
+        printf("the grade obtained is:D");
+    }
+    return 0;
+}

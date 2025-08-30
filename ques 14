@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    char alphabet;
+    printf("enter an alphabet");
+    scanf("%c", &alphabet);
+    if(alphabet=='a'|| alphabet=='e'|| alphabet=='i'|| alphabet=='o'|| alphabet=='u')
+    {
+        printf("the given alphabet is a vowel");
+    }
+    else if(alphabet=='A'||alphabet=='E'||alphabet=='I'||alphabet=='O'||alphabet=='U')
+    {
+        printf("the given alphabet is a vowel");
+    }
+    else{
+        printf("the given alphabet is not a vowel");
+    }
+    return 0;
+}
